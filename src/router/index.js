@@ -4,7 +4,8 @@ const routes = [
   {
     path: "/",
     name: "contactbook",
-    component: ContactBook, },
+    component: ContactBook,
+  },
   {
     path: "/:pathMatch(.*)*",
     name: "notfound",
